@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title> Homework 2 </title>
+</head>
+<body>
+	<table border="1px solid black">
+		<tr>
+			<td>
+				Ім’я
+			</td>
+			<td>
+				Прізвище
+			</td>
+			<td>
+				Телефон
+			</td>
+			<td>
+				Email
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Іван
+			</td>
+			<td>
+				Іванов
+			</td>
+			<td>
+				+380984563254
+			</td>
+			<td>
+				ivan@gmail.com
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Петро
+			</td>
+			<td>
+				Петров
+			</td>
+			<td>
+				+380678015341
+			</td>
+			<td>
+				petro@gmail.com
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Василій
+			</td>
+			<td>
+				Васильов
+			</td>
+			<td>
+				+380634451679
+			</td>
+			<td>
+				vasiliy@gmail.com
+			</td>
+		</tr>
+	</table>
+
+	<form>
+		<div>
+			<p>
+			   <input type="text" placeholder="Введіть Ваше ім’я">
+		      </p>
+		      <p>
+			    <input type="text" placeholder="Введіть Ваше Прізвище">
+		      </p>
+		</div>
+
+		<h3>Ваша стать</h3>
+		<input type="radio" id="male" name="gender" value="male" checked>
+		<label for="male">Чоловіча</label>
+
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Жіноча</label>
+
+		<div>
+			<p>
+			   <textarea name="text" cols="30" rows="8"  placeholder="Напишіть Ваше запитання"></textarea>
+		    </p>
+		</div>
+
+		<select id="cities" name="cities">
+			<option selected disabled>Виберіть місто</option>
+			<option value="Lviv">Львів</option>
+			<option value="Kyiv">Київ</option>
+			<option value="Odesa">Одеса</option>
+		</select>
+
+		<h3>Виберіть мову</h3>
+		<div>
+			<p>
+			  <label>
+				    <input type="checkbox" value="English">English
+			  </label>
+		    </p>
+		    <p>
+			  <label>
+				    <input type="checkbox" value="Ukrainian">Українська
+			  </label>
+		    </p>
+		    <p>
+			   <label>
+				     <input type="checkbox" value="Russian"> Русский
+			   </label>
+		    </p>
+		</div>
+		
+		<button>Відправити</button>
+	</form>
+</body>
+</html>
