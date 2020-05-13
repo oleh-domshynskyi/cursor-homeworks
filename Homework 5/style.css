@@ -1,0 +1,163 @@
+header {
+	background-color: #ED4C5C;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 500px;
+}
+.left-side-header {
+	max-width: 30%;
+	height: 55%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.header-main-text {
+	font: normal 14px/140% Lato;
+	text-align: justify;
+	color: #FFFFFF;
+}
+
+.header-header-text {
+	font: normal 600 36px Lato;
+	color: #FFFFFF;
+}
+
+.app-download-link {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+.google-icon, .apple-icon, .windows-icon {
+	cursor: pointer;
+}
+
+main {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.left-side-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30%;
+	height: 32%;
+}
+
+.main-header-text {
+	font: normal 600 36px/43px Lato;
+	color: #000000;
+}
+
+.main-main-text {
+	font: normal 14px/140% Lato;
+	color: #000000;
+}
+.right-side-main {
+	width: 38%;
+	height: 305px;
+}
+
+form {
+	display: flex;
+	align-content: space-between;
+	justify-content: space-between;
+	flex-wrap: wrap;
+ 	width: 100%;
+	height: 100%;
+
+}
+
+input, select {
+	border: 1px solid #333333;
+	box-sizing: border-box;
+	border-radius: 6px;
+	font: normal 16px/19px Lato;
+	color: rgba(19, 39, 67, 0.5);
+	padding-left: 25px;
+}
+.first-name, .last-name {
+	width: 47%;
+	height: 60px;
+}
+
+.tel-number, .select-service {
+	width: 100%;
+	height: 60px;
+}
+
+.select-service {
+	color:#6e6e6e;
+	cursor: pointer;
+	-webkit-appearance: none;
+	background: url(images/ChevronDown.svg)  no-repeat 95%;
+}
+
+.submit-button {
+	font: normal 14px/17px Lato;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+	background: #ED4C5C;
+	border: 1.5px solid #ED4C5C;
+	box-sizing: border-box;
+	border-radius: 6px;
+	width: 160px;
+	height: 50px;
+	cursor: pointer;
+}
+
+footer {
+	width: 100%;
+	height: 435px;
+	background-color: #FAFAFA;
+	display: flex;
+	justify-content: space-around;
+	align-items:  center;
+}
+
+p {
+	margin: 0;
+}
+
+.footer-header-text {
+	font: normal bold 18px/22px Lato;
+	color: #101010;
+}
+
+.footer-main-text {
+	padding-top: 30px;
+	font: normal 12px/150% Lato;
+	color: #101010;
+}
+
+.footer-support-image {
+	padding-top: 30px;
+	cursor: pointer;
+}
+
+.footer-footer-text {
+	font: normal 12px/14px Lato;
+	color: #101010;
+}
+
+.adress, .services, .get-in-touch, .we-support {
+	height: 264px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer-social-links {
+	padding-top: 15px;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
