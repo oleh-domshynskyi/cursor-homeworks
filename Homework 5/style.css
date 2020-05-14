@@ -4,11 +4,12 @@ header {
 	justify-content: space-around;
 	align-items: center;
 	width: 100%;
-	height: 500px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 .left-side-header {
 	max-width: 30%;
-	height: 55%;
+	min-height: 280px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -36,7 +37,8 @@ header {
 
 main {
 	width: 100%;
-	height: 500px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -46,7 +48,7 @@ main {
 	flex-direction: column;
 	justify-content: space-between;
 	width: 30%;
-	height: 32%;
+	min-height: 150px;
 }
 
 .main-header-text {
@@ -113,8 +115,9 @@ input, select {
 }
 
 footer {
+	padding-top: 80px;
+	padding-bottom: 80px;
 	width: 100%;
-	height: 435px;
 	background-color: #FAFAFA;
 	display: flex;
 	justify-content: space-around;
