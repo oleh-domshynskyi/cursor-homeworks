@@ -106,7 +106,7 @@ input, select {
 
 	color: #FFFFFF;
 	background: #ED4C5C;
-	border: 1.5px solid #ED4C5C;
+	border: 1.5px;
 	box-sizing: border-box;
 	border-radius: 6px;
 	width: 160px;
