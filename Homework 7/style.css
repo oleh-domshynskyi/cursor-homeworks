@@ -66,7 +66,7 @@ main {
 
 .hello-block h1 {
 	margin: 0;
-	font: normal 36px/57px 'Baloo Bhai 2';
+	font: normal bold 36px/57px 'Baloo Bhai 2';
 	color: #000000;
 }
 
@@ -114,7 +114,7 @@ main {
 }
 
 .course-title {
-	font: normal 16px/26px 'Baloo Bhai 2';
+	font: normal bold 16px/26px 'Baloo Bhai 2';
 	color: #000000;
 }
 
@@ -168,7 +168,7 @@ main {
 }
 
 .courses h2 {
-	font: normal 24px/38px 'Baloo Bhai 2';
+	font: normal bold 24px/38px 'Baloo Bhai 2';
 	color: #000000;
 }
 
@@ -179,13 +179,13 @@ main {
 }
 
 .courses-choice-selected  {
-	font: normal 16px/26px 'Baloo Bhai 2';
+	font: normal bold 16px/26px 'Baloo Bhai 2';
 	color: #000000;
 	cursor: pointer;
 }
 
 .courses-choice-not-selected  {
-	font: normal 16px/26px 'Baloo Bhai 2';
+	font: normal bold 16px/26px 'Baloo Bhai 2';
 	color: #000000;
 	opacity: 0.3;
 	cursor: pointer;
@@ -315,7 +315,7 @@ main {
 }
 
 .stats-title {
-	font: normal 64px/102px 'Baloo Bhai 2' ;
+	font: normal bold 64px/102px 'Baloo Bhai 2' ;
 	color: #000000;
 }
 
@@ -331,7 +331,7 @@ main {
 }
 
 .statistics h2 {
-	font: normal 24px/38px 'Baloo Bhai 2';
+	font: normal bold 24px/38px 'Baloo Bhai 2';
 	color: #000000;
 }
 
@@ -347,13 +347,13 @@ main {
 }
 
 .statistics-choice-selected {
-	font: normal 16px/26px 'Baloo Bhai 2';
+	font: normal bold 16px/26px 'Baloo Bhai 2';
 	color: #000000;
 	cursor: pointer;
 }
 
 .statistics-choice-not-selected {
-	font: normal 16px/26px 'Baloo Bhai 2';
+	font: normal bold 16px/26px 'Baloo Bhai 2';
 	color: #000000;
 	opacity: 0.3;
 	cursor: pointer;
@@ -392,7 +392,7 @@ main {
 }
 
 .go-premium-text-title {
-	font: normal 24px/38px 'Baloo Bhai 2';
+	font: normal bold 24px/38px 'Baloo Bhai 2';
 	color: #000000;
 }
 
