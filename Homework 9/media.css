@@ -46,6 +46,17 @@
 		color: #FFFFFF;
 	}
 
+	.button-text-main {
+		font: normal 500 20px/25px Roboto;	
+		color: #FFFFFF;
+
+	}
+
+	.button-text-main span {
+		font: normal 300 16px/19px Roboto;
+	color: #FFFFFF;
+	}
+
 	/*-------what-it-does------*/
 	.what-it-does {
 		display: flex;
@@ -198,6 +209,7 @@
 	.feature-title {
 		font: normal bold 28px/37px Lato;
 		color: #333333;
+		text-align: center;
 	}
 
 	.feature-block {
@@ -211,6 +223,7 @@
 		font: normal 16px/23px Lato;
 		color: #4F4F4F;
 		margin-top: 10px;
+		text-align: center;
 	}
 	.feature-block svg {
 		fill: #00ADEE;
