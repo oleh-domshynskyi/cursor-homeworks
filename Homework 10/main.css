@@ -83,3 +83,9 @@ html, body {
 		margin-left: 0px;
 	}
 }
+
+@media (max-width: 350px) {
+	.header-search {
+		width: 140px;
+	}
+}
