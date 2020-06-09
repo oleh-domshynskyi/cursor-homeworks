@@ -1,0 +1,163 @@
+.sword {
+	width: 500px;
+	height: 300px;
+	background-color: #000000a1;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sword-container {
+	height: 150px;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sword-container div {
+	height: 10px;
+	width: 200px;
+	background-color: white;
+}
+
+.sword-white {
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+
+.sword-red, .sword-green {
+	margin-top: 50px;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.sword-container:hover .sword-white {
+    opacity: 0;
+}
+
+.sword-container:hover .sword-red {
+	box-shadow: 0 0 20px rgb(249, 4, 4); 
+    transform: rotate(45deg);
+}
+
+.sword-container:hover .sword-green {
+	box-shadow: 0 0 20px rgba(23, 255, 0, 0.959);
+	transform: translateY(-65px) rotate(-45deg); 
+     
+}
+
+.sword-white:before {
+    position: relative;
+    left: 30px;
+    display: block;
+    content: " ";
+    width: 30px;
+    height: 10px;
+    background-color: #000000;
+}
+
+.sword-red:after {
+    position: relative;
+    left: 140px;
+    display: block;
+    content: " ";
+    width: 30px;
+    height: 10px;
+    background-color: #000000;
+}
+
+.sword-green:after {
+    position: relative;
+    left: 30px;
+    display: block;
+    content: " ";
+    width: 30px;
+    height: 10px;
+    background-color: #000000;
+}
+
+.clock {
+	width: 500px;
+	height: 300px;
+	background-color: #ecdede;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.clock-container {
+	display: flex;
+	align-items: center;
+	width: 300px;
+	height: 200px;
+}
+
+.ball {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #f1844a
+}
+
+.ball:after {
+	position: relative;
+    display: block;
+    content: " ";
+    width: 96%;
+    height: 10px; 
+    top: 65px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at center,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%);
+   }
+
+.ball:first-child, .ball:last-child {
+    transform-origin: 21px -80px;
+}
+
+.ball:first-child {
+     animation: ball-left 1.2s ease infinite;
+}
+
+.ball:last-child {
+     animation: ball-right 1.2s ease infinite 1.2s;
+}
+
+.ball:first-child::after {
+     animation: shadow-left 1.2s ease infinite;
+}
+
+.ball:last-child::after {
+     animation: shadow-right 1.2s ease infinite 1.2s;
+}
+
+@keyframes ball-left {
+       0%   { transform: rotate(0deg); }
+      25%   { transform: rotate(12deg); }
+      50% { transform: rotate(0deg); }
+     100% { transform: rotate(0deg); }
+}
+   
+  
+@keyframes ball-right {
+       0%   { transform: rotate(0deg); }
+      50%   { transform: rotate(0deg); }
+      75%   { transform: rotate(-12deg); }
+     100% { transform: rotate(0deg); }
+}
+
+@keyframes shadow-left {
+             0% {transform: rotate(0deg) scale(1) translate(0,0);}
+            25% {transform: rotate(-12deg) scale(1.2) translate(-5px,5px)}
+            50% {transform: rotate(0deg) scale(1) translate(0,0);}
+           100% {transform: rotate(0deg) scale(1) translate(0,0);}
+}
+       
+@keyframes shadow-right {
+         0% {transform: rotate(0deg) scale(1) translate(0,0);}
+        50% {transform: rotate(0deg) scale(1) translate(0,0);}
+        75% {transform: rotate(12deg) scale(1.2) translate(-5px,5px);}
+       100% {transform: rotate(0deg) scale(1) translate(0,0);}
+}
