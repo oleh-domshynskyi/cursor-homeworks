@@ -366,6 +366,10 @@ footer {
   .rights {
     width: 80px;
   }
+
+  .button-container .button {
+    width: 150px;
+  }
 }
 .button-blue:hover {
   background: #E7ECFF;
