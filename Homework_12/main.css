@@ -261,12 +261,22 @@ footer {
     background: none;
   }
 
+  .section-1 {
+    align-items: center;
+  }
+
   .section-1-text {
     text-align: center;
+    align-items: center;
+  }
+
+  .section-2 {
+    align-items: center;
   }
 
   .section-2 .wrapper {
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .section-2-description {
