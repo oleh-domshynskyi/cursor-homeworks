@@ -1,3 +1,5 @@
+$white: #E7ECFF;
+$blue: #111B47;
 .wrapper {
 	width: 80%;
 }
@@ -15,19 +17,18 @@ header {
 	justify-content:space-between;
 	align-items:center;
 	margin-top: 20px;
+	&-text {
+		display:flex;
+		justify-content:space-between;
+		width:250px;
+	&-item {
+		font: normal 14px/24px Roboto;
+		color: #505F98;
+		text-decoration:none;
+		}
+	}
 }
 
-.nav-text {
-	display:flex;
-	justify-content:space-between;
-	width:250px;
-}
-
-.nav-text-item {
-	font: normal 14px/24px Roboto;
-	color: #505F98;
-	text-decoration:none;
-}
 
 .logo {
 	font: normal 900 26px/38px Roboto;
@@ -38,10 +39,9 @@ header {
 	border: 2px solid #091133;
 	box-sizing: border-box;
 	border-radius: 2px;
-}
-
-.button-blue {
-	background: #111B47;
+	&-blue {
+		background: $blue;
+	}
 }
 
 .nav-button {
@@ -55,13 +55,13 @@ header {
 	display:flex;;
 	flex-direction:column;
 	margin-top:260px;
-}
-
-.section-1-text {
-	display:flex;
+	&-text {
+		display:flex;
 	flex-direction:column;
 	max-width:540px;
+	}
 }
+
 
 .section-1-title-text {
 	font: normal 500 50px/66px Roboto;
@@ -78,29 +78,25 @@ header {
 .button-container {
 	max-width :410px;
 	margin-top:75px;
-	margin-bottom: 390px;
+	margin-bottom: 340px;
 	display:flex;
 	justify-content:space-between;
+	& .button-blue {
+		font: normal 500 16px/26px Roboto;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	& .button-white {
+		font: normal 500 16px/26px Roboto;
+		text-align: center;
+		color: #091133;
+	}
 }
 
 .section-1-button {
 	width:190px;
 	height:36px;
 
-}
-
-.button-container .button-blue {
-	font: normal 500 16px/26px Roboto;
-	text-align: center;
-	color: #FFFFFF;
-}
-
-
-
-.button-container .button-white {
-	font: normal 500 16px/26px Roboto;
-	text-align: center;
-	color: #091133;
 }
 
 
@@ -113,16 +109,20 @@ header {
 	display:flex;
 	justify-content:center;
 	min-height:750px;
+	&-description {
+		max-width:520px;
+	}
+	&-option {
+		display:flex;
+		justify-content:space-between;
+		margin-top: 80px;
+	}
 }
 
 section .wrapper {
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
-}
-
-.section-2-description {
-	max-width:520px;
 }
 
 .text-title {
@@ -136,69 +136,62 @@ section .wrapper {
 	margin-top:10px;
 }
 
-.section-2-option {
-	display:flex;
-	justify-content:space-between;
-	margin-top: 80px;
-}
 
 .option {
 	max-width:250px;
+	&-text {
+		margin-top:10px;
+		&-title {
+			font:normal 500 16px/26px Roboto;
+		color: #091133;
+		}
+		&-main {
+			font:normal 12px/18px Roboto;
+			color: #5D6970;
+		}
+	}
 }
 
-.option-text {
-	margin-top:10px;
-}
 
-.option-text-title {
-	font:normal 500 16px/26px Roboto;
-	color: #091133;
-}
-
-.option-text-main {
-	font:normal 12px/18px Roboto;
-	color: #5D6970;
-}
 
 .section-3 {
 	min-height:750px;
 	display:flex;
 	justify-content:center;
+	&-text {
+		max-width: 450px;
+	}
 }
 
-.section-3-text {
-	max-width: 450px;
-}
 
 .section-4 {
 	min-height:750px;
 	display:flex;
 	justify-content:center;
+	&-text {
+		max-width: 450px;
+	}
 }
 
-.section-4-text {
-	max-width: 450px;
-}
+
 
 .section-5 {
 	min-height:750px;
 	display:flex;
 	justify-content:center;
+	&-text {
+		max-width: 450px;
+	}
+	&-button {
+		width:150px;
+		height:32px;
+		margin-top:40px;
+		font: normal 500 14px/24px Roboto;
+		text-align: center;
+		color: #FFFFFF;
+	}
 }
 
-.section-5-text {
-	max-width: 450px;
-	
-}
-
-.section-5-button {
-	width:150px;
-	height:32px;
-	margin-top:40px;
-	font: normal 500 14px/24px Roboto;
-	text-align: center;
-	color: #FFFFFF;
-}
 
 .section-6 {
 	text-align:center;
@@ -208,11 +201,16 @@ section .wrapper {
 	align-items:center;
 	background: url(images/6-section-image.svg);
 	background-size:110%;
+	&-text {
+		max-width:600px;
+		&-sm {
+			font: normal 14px/24px Roboto;
+			color: #5D6970;
+			margin-top:40px;
+		}
+	}
 }
 
-.section-6-text {
-	max-width:600px;
-}
 
 .text-price {
 	font:normal 500 50px/66px Roboto;
@@ -221,11 +219,6 @@ section .wrapper {
 	margin-top:20px;
 }
 
-.section-6-text-sm {
-	font: normal 14px/24px Roboto;
-	color: #5D6970;
-	margin-top:40px;
-}
 
 .section-6-button {
 	width:190px;
@@ -239,7 +232,7 @@ footer {
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	background:#E7ECFF;
+	background:$white;
 	height:220px;
 }
 
@@ -365,13 +358,13 @@ footer {
 }
 
 .button-blue:hover {
-	background:#E7ECFF;
-	color: #111B47;
+	background:$white;
+	color: $blue;
 }
 
 .button-white:hover {
-	background:#111B47;
-	color: #E7ECFF;
+	background:$blue;
+	color: $white;
 }
 
 .logo {
@@ -380,4 +373,8 @@ footer {
 
 .social img {
 	cursor:pointer;
+}
+
+.nav-text-item:hover {
+	color:$blue;
 }

@@ -16,13 +16,11 @@ header {
   align-items: center;
   margin-top: 20px;
 }
-
 .nav-text {
   display: flex;
   justify-content: space-between;
   width: 250px;
 }
-
 .nav-text-item {
   font: normal 14px/24px Roboto;
   color: #505F98;
@@ -39,7 +37,6 @@ header {
   box-sizing: border-box;
   border-radius: 2px;
 }
-
 .button-blue {
   background: #111B47;
 }
@@ -56,7 +53,6 @@ header {
   flex-direction: column;
   margin-top: 260px;
 }
-
 .section-1-text {
   display: flex;
   flex-direction: column;
@@ -78,26 +74,24 @@ header {
 .button-container {
   max-width: 410px;
   margin-top: 75px;
-  margin-bottom: 390px;
+  margin-bottom: 340px;
   display: flex;
   justify-content: space-between;
 }
-
-.section-1-button {
-  width: 190px;
-  height: 36px;
-}
-
 .button-container .button-blue {
   font: normal 500 16px/26px Roboto;
   text-align: center;
   color: #FFFFFF;
 }
-
 .button-container .button-white {
   font: normal 500 16px/26px Roboto;
   text-align: center;
   color: #091133;
+}
+
+.section-1-button {
+  width: 190px;
+  height: 36px;
 }
 
 .button-white {
@@ -109,15 +103,19 @@ header {
   justify-content: center;
   min-height: 750px;
 }
+.section-2-description {
+  max-width: 520px;
+}
+.section-2-option {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
 
 section .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.section-2-description {
-  max-width: 520px;
 }
 
 .text-title {
@@ -131,25 +129,16 @@ section .wrapper {
   margin-top: 10px;
 }
 
-.section-2-option {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 80px;
-}
-
 .option {
   max-width: 250px;
 }
-
 .option-text {
   margin-top: 10px;
 }
-
 .option-text-title {
   font: normal 500 16px/26px Roboto;
   color: #091133;
 }
-
 .option-text-main {
   font: normal 12px/18px Roboto;
   color: #5D6970;
@@ -160,7 +149,6 @@ section .wrapper {
   display: flex;
   justify-content: center;
 }
-
 .section-3-text {
   max-width: 450px;
 }
@@ -170,7 +158,6 @@ section .wrapper {
   display: flex;
   justify-content: center;
 }
-
 .section-4-text {
   max-width: 450px;
 }
@@ -180,11 +167,9 @@ section .wrapper {
   display: flex;
   justify-content: center;
 }
-
 .section-5-text {
   max-width: 450px;
 }
-
 .section-5-button {
   width: 150px;
   height: 32px;
@@ -203,9 +188,13 @@ section .wrapper {
   background: url(images/6-section-image.svg);
   background-size: 110%;
 }
-
 .section-6-text {
   max-width: 600px;
+}
+.section-6-text-sm {
+  font: normal 14px/24px Roboto;
+  color: #5D6970;
+  margin-top: 40px;
 }
 
 .text-price {
@@ -213,12 +202,6 @@ section .wrapper {
   letter-spacing: 1px;
   color: #222F65;
   margin-top: 20px;
-}
-
-.section-6-text-sm {
-  font: normal 14px/24px Roboto;
-  color: #5D6970;
-  margin-top: 40px;
 }
 
 .section-6-button {
@@ -390,6 +373,10 @@ footer {
 
 .social img {
   cursor: pointer;
+}
+
+.nav-text-item:hover {
+  color: #111B47;
 }
 
 /*# sourceMappingURL=main.css.map */
