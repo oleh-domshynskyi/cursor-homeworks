@@ -455,6 +455,10 @@ button {
     border: 10px solid #ffdc00;
     display: block;
 }
+video {
+    width: 100%;
+    height: 100%;
+}
 
 .how {
     text-align: center;
@@ -642,7 +646,7 @@ button {
 }
 
 .last-screen .wrapper {
-    height: auto;
+    height: 600px;
     min-height: 1px !important;
 }
 
